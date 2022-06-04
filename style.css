@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+nav {
+  display:flex;
+  justify-content:flex-end;
+  width: 100%; 
+  flex-direction: row;
+  padding-top: 25px;
+
+}
+
+header{
+  
+}
+
+.title{
+  display: flex; 
+  flex-direction: row;
+  
+}
+
+#logo{
+  float:left; 
+  width: 45px;
+  height: 45px;
+  padding-top: 25px;
+  padding-right:5px; 
+}
+
+#delicious{
+ display: inline; 
+  font-size: 1.5rem;
+  font-family: cursive;
+  vertical-align: top;
+  margin: none; 
+}
+
+
+
+span{
+  font-size: .45rem; 
+  display: inline-block; 
+  width: fit-content; 
+  position: absolute;
+}
+
+#recipe{
+  font-style:bold; 
+  font-size: 2rem;
+  font-family: 'open sans';  
+}
+
+#pizza{
+  
+
+}
+
