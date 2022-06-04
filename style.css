@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html{
+  margin:10%;
+}
+
+nav {
+  display:flex;
+  justify-content:flex-end;
+  width: 100%; 
+  flex-direction: row; 
+}
+
+a {
+  padding: 25px 2px 0px 2px;
+}
+#print{
+  padding: 25px 10px 0px 0px;
+}
+
+.title{
+  display: flex; 
+  flex-direction: row;
+  
+}
+
+#logo{
+  float:left; 
+  width: 45px;
+  height: 45px;
+  padding-top: 25px;
+  padding-right:5px; 
+}
+
+#delicious{
+ display: inline; 
+  font-size: 1.5rem;
+  font-family: cursive;
+  vertical-align: top;
+  margin: none; 
+}
+
+
+
+span{
+  font-size: .45rem; 
+  display: inline-block; 
+  width: fit-content; 
+  position: absolute;
+}
+
+#recipe{
+  font-size: 2rem;
+  font-family: 'kdam thmor pro', sans-serif;  
+  font-weight:750; 
+}
+
+#mainpizza{
+float: right; 
+
+}
+
