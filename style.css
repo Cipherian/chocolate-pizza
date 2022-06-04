@@ -1,63 +1,98 @@
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-html{
-  margin:10%;
+html {
+  margin: 10%;
 }
 
 nav {
-  display:flex;
-  justify-content:flex-end;
-  width: 100%; 
-  flex-direction: row; 
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-direction: row;
 }
 
 a {
   padding: 25px 2px 0px 2px;
 }
-#print{
+#print {
   padding: 25px 10px 0px 0px;
 }
 
-.title{
-  display: flex; 
+.title {
+  display: flex;
   flex-direction: row;
-  
 }
 
-#logo{
-  float:left; 
+#logo {
+  float: left;
   width: 45px;
   height: 45px;
   padding-top: 25px;
-  padding-right:5px; 
+  padding-right: 5px;
 }
 
-#delicious{
- display: inline; 
+#delicious {
+  display: inline;
   font-size: 1.5rem;
   font-family: cursive;
   vertical-align: top;
-  margin: none; 
+  margin: none;
 }
 
-
-
-span{
-  font-size: .45rem; 
-  display: inline-block; 
-  width: fit-content; 
+span {
+  font-size: 0.45rem;
+  display: inline-block;
+  width: fit-content;
   position: absolute;
 }
 
-#recipe{
+#recipe {
   font-size: 2rem;
-  font-family: 'kdam thmor pro', sans-serif;  
-  font-weight:750; 
+  font-family: 'kdam thmor pro', sans-serif;
+  font-weight: 750;
 }
 
-#mainpizza{
-float: right; 
-
+#printicon, figcaption {
+  display: inline;
+  justify-content: flex-end;
 }
 
+
+
+#lists {
+  background-image: url('img/list-bg.png');
+  background-size: cover;
+  background-color: #cccc;
+  column-count: 2;
+}
+
+li {
+  list-style: none;
+}
+
+#pizza {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#mainimg {
+  width: 1000px;
+}
+
+#maintext {
+  display: inline-block;
+  justify-content: flex-start;
+}
+
+#maintext > span {
+  display: inline-block;
+}
+
+hr {
+  border: 0;
+  height: 15px;
+  background-color: white;
+  background-image: url(img/hr-img.png);
+  background-repeat: repeat-x;
+  overflow: hidden;
+}
