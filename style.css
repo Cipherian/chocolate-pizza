@@ -53,8 +53,10 @@ span {
 }
 
 #printicon, figcaption {
-  display: inline;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: right;
+  margin:none; 
+  padding: none;
 }
 
 
@@ -70,23 +72,31 @@ li {
   list-style: none;
 }
 
-#pizza {
-  display: flex;
-  justify-content: flex-end;
-}
+
 
 #mainimg {
-  width: 1000px;
+  width: 950px;
 }
 
 #maintext {
-  display: inline-block;
+  display: inline;
   justify-content: flex-start;
+
 }
 
-#maintext > span {
-  display: inline-block;
+h2 {
+  margin:0px; 
+  padding-top: 50px; 
 }
+
+#spantext{
+
+  font-size:.75rem; 
+  margin: none; 
+
+  
+}
+
 
 hr {
   border: 0;
@@ -95,4 +105,21 @@ hr {
   background-image: url(img/hr-img.png);
   background-repeat: repeat-x;
   overflow: hidden;
+}
+
+article>p {
+  text-align: left;
+  text-indent: 50px; 
+}
+
+button{
+ display:center; 
+  margin-right: auto;
+  margin-left: auto: 
+}
+
+
+footer{
+  display: flex; 
+  justify-content:center; 
 }
