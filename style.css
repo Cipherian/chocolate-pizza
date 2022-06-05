@@ -52,14 +52,13 @@ span {
   font-weight: 750;
 }
 
-#printicon, figcaption {
+#printicon,
+figcaption {
   display: flex;
   justify-content: right;
-  margin:none; 
+  margin: none;
   padding: none;
 }
-
-
 
 #lists {
   background-image: url('img/list-bg.png');
@@ -72,8 +71,6 @@ li {
   list-style: none;
 }
 
-
-
 #mainimg {
   width: 950px;
 }
@@ -81,22 +78,17 @@ li {
 #maintext {
   display: inline;
   justify-content: flex-start;
-
 }
 
 h2 {
-  margin:0px; 
-  padding-top: 50px; 
+  margin: 0px;
+  padding-top: 50px;
 }
 
-#spantext{
-
-  font-size:.75rem; 
-  margin: none; 
-
-  
+#spantext {
+  font-size: 0.75rem;
+  margin: none;
 }
-
 
 hr {
   border: 0;
@@ -107,19 +99,37 @@ hr {
   overflow: hidden;
 }
 
-article>p {
+article > p {
   text-align: left;
-  text-indent: 50px; 
+  text-indent: 50px;
 }
 
-button{
- display:center; 
+button {
+  display: center;
   margin-right: auto;
-  margin-left: auto: 
+  margin-left: auto;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
 
-footer{
-  display: flex; 
-  justify-content:center; 
+.author {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.author h3 {
+  font-size: 20px;
+  margin: 13px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.author p {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 12px;
+  margin-right: 20%;
 }
