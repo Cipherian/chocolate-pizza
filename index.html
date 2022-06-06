@@ -2,10 +2,15 @@
 <html lang="en">
   <link rel="stylesheet" href="style.css" />
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"/>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Chocolate Pizza Recipe</title>
   </head>
   <body>
     <header>
@@ -13,7 +18,7 @@
         <img src="img/logo.png" alt="website logo" id="logo" />
         <h1>
           <p id="delicious">
-            <em> Delicious </em>
+            Delicious
             <br />
             <span> THE BEST FOOD BLOG ON THE WEB </span>
           </p>
@@ -42,10 +47,10 @@
 
           <div id="print">
             <a href="#">
-              <img src="img/rss-icon.png" alt="rss link" />
+              <img id ="rss" src="img/rss-icon.png" alt="rss link" />
             </a>
             <a href="#">
-              <img src="img/mail-icon.png" alt="mail-icon link" />
+              <img id ="mail" src="img/mail-icon.png" alt="mail-icon link" />
             </a>
           </div>
         </nav>
@@ -53,16 +58,14 @@
     </header>
     <main>
       <hr />
-      <div id="maintext">
         <h2 id="recipe">Chocolate Pizza</h2>
         <span id="spantext">POSTED ON 15 DEC 2013 / DESSERTS</span>
         <figure>
           <figcaption>
-            PRINT
             <img src="img/print-icon.png" alt="print" id="printicon" />
+            PRINT
           </figcaption>
         </figure>
-      </div>
 
       <img src="img/choco-pizza.png" alt="Finished pizza" id="mainimg" />
       <article id="cook">
@@ -101,9 +104,9 @@
           <ul>
             <li><input type="checkbox" />1 1/2 cups heavy cream</li>
             <li>
-              <input type="checkbox" /> <strike>1/3 granulated sugar</strike>
+              <input type="checkbox" /> 1/3 granulated sugar</strike>
             </li>
-            <li><input type="checkbox" /><strike>2 eggs yolks</strike></li>
+            <li><input type="checkbox" />2 eggs yolks</strike></li>
             <li><input type="checkbox" />1 lemon, juiced</li>
             <li><input type="checkbox" />2 tbsp butter</li>
             <li>
