@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 html {
-  margin: 10%;
+  margin: 3% 10% 3% 10%;
+  height: auto;
 }
 
 nav {
@@ -15,7 +16,15 @@ a {
   padding: 25px 2px 0px 2px;
 }
 #print {
-  padding: 25px 10px 0px 0px;
+  padding: 25px 0px 0px 10px;
+  margin:none;
+  display: inline-block;
+}
+#mail {
+  float:right;
+}
+#rss {
+  float:right;
 }
 
 .title {
@@ -25,54 +34,69 @@ a {
 
 #logo {
   float: left;
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   padding-top: 25px;
   padding-right: 5px;
 }
 
 #delicious {
   display: inline;
-  font-size: 1.5rem;
-  font-family: cursive;
-  vertical-align: top;
+  font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 800;
   margin: none;
 }
 
 span {
-  font-size: 0.45rem;
+  font-size: 0.5rem;
+  font-family: sans-serif;
+  color:gray;
   display: inline-block;
-  width: fit-content;
+  width: 170px;
+  height:20px;
   position: absolute;
+}
+
+ input[type="checkbox"]:checked, li:checked{
+  text-decoration: line-through;
 }
 
 #recipe {
   font-size: 2rem;
   font-family: 'kdam thmor pro', sans-serif;
-  font-weight: 750;
+  font-weight: 850;
 }
-
-#printicon,
-figcaption {
-  display: flex;
-  justify-content: right;
-  margin: none;
-  padding: none;
+figure, figcaption {
+  display:flex;
+  justify-content: flex-end;
+  margin-left: 900px;
+  padding-bottom: 10px;
+  color: gray;
+  font-size: 10px;
 }
-
+#printicon {
+  width:15px;
+  height:10px;
+}
 #lists {
   background-image: url('img/list-bg.png');
   background-size: cover;
   background-color: #cccc;
   column-count: 2;
 }
-
+#spantext {
+  font-size: .85rem;
+  margin: none;
+  padding-left: 5px;
+  width: fit-content;
+}
 li {
   list-style: none;
 }
 
 #mainimg {
-  width: 950px;
+  width: 100%;
 }
 
 #maintext {
@@ -84,10 +108,15 @@ h2 {
   margin: 0px;
   padding-top: 50px;
 }
-
-#spantext {
-  font-size: 0.75rem;
-  margin: none;
+button {
+  background-color: rgba(139, 0, 0, 70%);
+  color: white;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border: none;
 }
 
 hr {
@@ -102,6 +131,9 @@ hr {
 article > p {
   text-align: left;
   text-indent: 50px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color:gray;
+  padding-top: 25px;
 }
 
 button {
