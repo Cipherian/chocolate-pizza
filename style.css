@@ -90,7 +90,7 @@ figure, figcaption {
 }
 
 label {
-  display: block;
+  display: inline;
   text-align: left;
 }
 #spantext {
