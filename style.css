@@ -83,15 +83,31 @@ figure, figcaption {
   background-color: #cccc;
   column-count: 2;
   font-family:'Teko', sans-serif; 
-  
+  width:100%;
+  height:200px;
+  column-width: 50px;
 }
  input[type="checkbox"]:checked + label {
   text-decoration: line-through;
 }
-
+.ingredients {
+  margin-left: 50px;
+  margin-top: 5px;
+}
+#col1 {
+  vertical-align: top;
+  margin-top: 25px;
+  height:200px;
+}
+#col2 {
+  vertical-align: top;
+  height:200px;
+}
+.ingredients2 {
+  margin-top:5px
+}
 label {
   display: inline;
-  text-align: left;
 }
 #spantext {
   font-size: .85rem;
