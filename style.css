@@ -59,9 +59,6 @@ span {
   position: absolute;
 }
 
- input[type="checkbox"]:checked, li:checked{
-  text-decoration: line-through;
-}
 
 #recipe {
   font-size: 2rem;
@@ -71,8 +68,8 @@ span {
 figure, figcaption {
   display:flex;
   justify-content: flex-end;
-  margin-left: 900px;
   padding-bottom: 10px;
+  padding-left: 1040px;
   color: gray;
   font-size: 10px;
 }
@@ -87,6 +84,14 @@ figure, figcaption {
   column-count: 2;
   font-family:'Teko', sans-serif; 
   
+}
+ input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+label {
+  display: inline;
+  text-align: left;
 }
 #spantext {
   font-size: .85rem;
@@ -124,7 +129,6 @@ button {
 
 hr {
   border: 0;
-  height: 15px;
   background-color: white;
   background-image: url(img/hr-img.png);
   background-repeat: repeat-x;
