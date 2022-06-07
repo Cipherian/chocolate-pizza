@@ -168,18 +168,31 @@ button {
 footer{
   text-align: center;
   color: gray;
-}
-#bottom-logo hr{
-  border: none;
-  border-top: 1px solid;
-  color:rgba(194, 186, 186, 0.42);
-  height: 2px;
+  
+  font-size:12px;
+  margin-bottom:12px;
 }
 
-#bottom-logo hr:after{
-  background: #ccc;
-  content: url(img/small-logo.png); 
+#bottom-logo{
+  display:flex; 
+  flex-direction:row; 
+  justify-content: space-between;
+  border-left:1px;
 }
-#bottom-logo {
-  display: inline-block;
+
+#left{
+  border-top:1px solid;
+  color: gray;
+  width:2000px; 
+  margin-right:auto; 
 }
+
+#right{
+  border-top:1px solid;
+  color: gray;
+  width:2000px; 
+  margin-right:auto; 
+}
+
+
+
